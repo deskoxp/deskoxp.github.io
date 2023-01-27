@@ -12,7 +12,7 @@ a{
     text-decoration: none;
 }
 body{
-	background-image:url('https://raw.githubusercontent.com/zouraiz523/LinkTree-Clone-/main/LinkTree%20Clone/bg.jpg');
+	background-image:url('https://i.imgur.com/gtXGlq8.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -74,11 +74,11 @@ body{
 .social__links ul .instagram:hover{
     background: #fd5949;
 }
-.social__links ul .youtube:hover{
-    background:#FF0000;
+.social__links ul .twitter:hover{
+    background:#00acee;
 }
-.social__links ul .github:hover{
-    background: #333;
+.social__links ul .twitch:hover{
+    background: #6441a5;
 } 
 @media only screen and (max-width: 549px) {
     .container{
