@@ -620,3 +620,33 @@ line-height: 60px;
     margin: 0;
 }
 }
+
+/* Estilos para dispositivos con una anchura máxima de 768px (como teléfonos móviles en posición vertical) */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+  .toggle-menu {
+    display: block;
+  }
+  .main {
+    width: 100%;
+  }
+}
+
+/* Estilos para dispositivos con una anchura mínima de 769px (como tabletas y computadoras de escritorio) */
+@media (min-width: 769px) {
+  .toggle-menu {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .main {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
